@@ -24,4 +24,21 @@ contract Calculator {
     constructor(uint _num) {
         num = _num;
     }
+
+    function add(uint _num) public {
+        num = num + _num;
+    }
+
+    function substract(uint _num) public {
+        if (num <= 0) {
+            num = 0;
+        }
+        if (num >= _num) {
+            num = num - _num;
+        }
+    }
+
+    function getNum() public view returns (uint) {
+        return num;
+    }
 }
