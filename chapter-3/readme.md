@@ -85,11 +85,3 @@ state like reading a variable  but do not modify it. They can be called
 without creating a transcation and do not consume gas when called externally
 via a call.
 ```
-
-
-## Inheritance
-
-```
-
-
-```
