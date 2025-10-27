@@ -15,7 +15,7 @@ contract Contract {
     }
 
     function getNumsByIndex(uint256 _index) public view returns (uint256) {
-        require(nums.length > _index,"Invalid Index");
+        require(nums.length < _index,"Invalid Index");
         return nums[_index];
     }
 }

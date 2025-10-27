@@ -6,10 +6,15 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_n",
+						"name": "_num",
 						"type": "uint256"
 					}
 				],
@@ -21,25 +26,19 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
 					}
 				],
-				"name": "getNumsByIndex",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getNumsLength",
+				"name": "getNums",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -64,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"chapter-8/contract.sol": "Contract"
+			"chapter-10/conrtact.sol": "Contract"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -78,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"chapter-8/contract.sol": {
-			"keccak256": "0xf69142b26dd4567c2f046cc627efd7c219ea4c494c01186863024de352017e47",
+		"chapter-10/conrtact.sol": {
+			"keccak256": "0x8e9c18868848919b19f3a0c222351ae3359f6901a3ce15d9d55af1586ad98a11",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://214d6978764613e34869ac8132c89e273faf5ed35ad48716aa78ccfe17dd6bd4",
-				"dweb:/ipfs/QmWKptjBd1wEQaeGGV1jHGnGYkXnTtzvJK767vPYpb9rXV"
+				"bzz-raw://df6e6d6aaf9d65ae704b92c8d81b0fe85b5c49a186ebb40222c318cd887964cb",
+				"dweb:/ipfs/QmZy7MfNvFLsLrg5ZmUbKojvmksj3zNdAezZ9xSAdj5rfD"
 			]
 		}
 	},
